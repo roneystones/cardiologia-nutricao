@@ -1,0 +1,30 @@
+
+<footer>
+  
+  <p>{{ site.title | escape }}</p>
+
+  <p>
+    {% if site.author %}
+      {{ site.author | escape }}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </p>
+
+  <p>
+    {% if site.email %}
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    {% endif %}
+  </p>
+
+  <p>{{ site.description | escape }}</p>
+
+	{% for social in site.data.social %}
+	  <a class="link gray dim bg-transparent dib h2 w2 mr3" href="{{ social.link }}" title="{{ social.nome }}">
+	    {{ social.icone }}
+	  </a>
+	{% endfor %}
+
+  <p>subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  
+</footer>
