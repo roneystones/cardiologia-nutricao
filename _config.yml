@@ -24,6 +24,10 @@ github_username:  roneystones
 
 # Build settings
 markdown: kramdown
+
+include: 
+  - _pages
+  
 plugins:
   - jekyll-feed
 
