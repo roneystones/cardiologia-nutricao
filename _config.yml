@@ -27,7 +27,9 @@ markdown: kramdown
 
 include: 
   - _pages
-  
+
+exclude: [node_modules, gulpfile.js]
+
 plugins:
   - jekyll-feed
 
