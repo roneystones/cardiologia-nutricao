@@ -6,7 +6,8 @@ Clone this repository and run:
 
 ```bash
 bundle install
-bundle exec jekyll server --watch
+npm install
+gulp
 ```
 
 Now navigate to [localhost:4000](http://localhost:4000/) to preview the site, and
