@@ -1,35 +1,41 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class="cf bg-near-white pv3">
+    <div class="cf w-80 center pt5 pb6">
+        <div class="fl w-100 w-50-l pr3-l">
+            <div class="google-maps">
+                <iframe src="https://snazzymaps.com/embed/54602" width="100%" height="600px" style="border:none;"></iframe>
+            </div>
+        </div>
+        <div class="fl w-100 w-50-l pl3-l">
+        	<h2 class="lora f2 b lh-title mb3">Tire suas dúvidas!</h2>
 
-  <div class="wrapper">
+			<p class="mb4">Estamos na Avenida 11 de Junho, número 1070, Vila Clementino, São Paulo. Agende uma visita e descubra o como podemos melhorar sua vida.</p>
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {% include social.html %}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
+            <form class="pa4 bg-light-gray" action="https://jumprock.co/mail/cardiologianutricao" method="post">
+            	<div class="mb3">
+            		<label for="nome" class="f6 b db mb2">Qual o seu nome? <span class="normal black-60">(opional)</span></label>
+            		<input class="input-reset ba b--black-20 pa2 db w-100" type="text" name="nome">
+            	</div>
+            	
+            	<div class="mb3">
+            		<label for="email" class="f6 b db mb2">Qual o seu e-mail?</label>
+					<input class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" name="email" placeholder="@" />
+					<!-- <small id="name-desc" class="f6 black-60 tr db mb2">Nunca enviaremos spam :)</small> -->
+            	</div>
+            	
+            	<div class="mb3">
+            		<label for="telefone" class="f6 b db mb2">Gostaria de deixar um telefone?</label>
+					<input class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" name="telefone" placeholder="(xx) xxxxx-xxxx">
+            	</div>
+            	
+            	<div class="mb3">
+            		<label for="mensagem" class="f6 b db mb2">Deixe sua mensagem</label>
+					<input class="input-reset ba b--black-20 pa2 mb2 db w-100 h3" type="text" name="mensagem" />
+            	</div>
+            	
+            	<div>
+					<button class="link br2 ph3 pv2 w-100 bw0 white bg-light-red" type="submit">Enviar mensagem</button>
+            	</div>
+			</form>
+        </div>
     </div>
-
-  </div>
-
 </footer>

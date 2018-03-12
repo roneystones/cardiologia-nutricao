@@ -13,25 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-name:              Roney Stones
-title:             Roney Stones
+name:              Cardiologia & Nutrição
+title:             Cardiologia & Nutrição
 email:             roneylacerda@gmail.com
 description:       Lorem ipsum dolor est
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: roneystones
-github_username:  roneystones
 
 # Build settings
 markdown: kramdown
 
-include: 
-  - _pages
+include: [_pages]
 
 exclude: [node_modules, gulpfile.js]
 
-plugins:
-  - jekyll-feed
+plugins: [jekyll-feed]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

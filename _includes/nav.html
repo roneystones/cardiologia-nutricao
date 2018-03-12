@@ -1,13 +1,14 @@
-<nav>
-  {% assign default_paths = site.pages | map: "path" %}
-  {% assign page_paths = site.header_pages | default: default_paths %}
+<nav class="db dt-l w-80 center pa3 ph5-l">
+  <a class="db dtc-l v-mid mid-gray link w-100 w-25-l tc tl-l mb2 mb0-l" href="{{ "/" | relative_url }}" title="Home">
+    <img src="/assets/images/novo-logo.png" class="dib logo" alt="">
+  </a>
 
-  <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-
-  {% for path in page_paths %}
-    {% assign my_page = site.pages | where: "path", path | first %}
-    {% if my_page.title %}
-      <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-    {% endif %}
-  {% endfor %}
+  <div class="lora b db dtc-l v-mid w-100 w-75-l tc tr-l">
+    <a class="link dim mid-gray f6 f5-l dib mr3 mr4-l" href="/" title="Home">Home</a>
+    <a class="link dim mid-gray f6 f5-l dib mr3 mr4-l" href="/a-clinica/" title="A Clínica">A Clínica</a>
+    <a class="link dim mid-gray f6 f5-l dib mr3 mr4-l" href="/cardiologia/" title="Cardiologia">Cardiologia</a>
+    <a class="link dim mid-gray f6 f5-l dib mr3 mr4-l" href="/nutricao/" title="Nutrição">Nutrição</a>
+    <a class="link dim mid-gray f6 f5-l dib mr3 mr4-l" href="/artigos/" title="Artigos">Artigos</a>
+    <a class="link dim mid-gray f6 f5-l dib" href="/contato/" title="Contato">Contato</a>
+  </div>
 </nav>

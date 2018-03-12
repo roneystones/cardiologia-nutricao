@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700, 700i');
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.banner {
+    background-image: url(images/banner-background.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
