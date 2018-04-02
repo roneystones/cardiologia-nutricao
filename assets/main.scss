@@ -2,8 +2,11 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "reset";
-@import "normalize";
-@import "syntax";
-@import "tachyons";
+@import "vendor/reset";
+@import "vendor/normalize";
+@import "vendor/syntax";
+@import "vendor/tachyons";
+
+@import "variables";
+
 @import "styles";
