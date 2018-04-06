@@ -4,6 +4,34 @@ title: Nutrição
 permalink: /nutricao/
 description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare felis justo, non sollicitudin libero ultrices id. Nunc tincidunt nunc non metus sagittis, a pulvinar neque dictum. Cras dictum dolor eleifend viverra elementum. Proin vitae sem felis. Phasellus a velit luctus ligula dignissim rutrum. Phasellus sed vehicula diam. Cras consectetur porta hendrerit. Duis quis felis eu massa ornare tempor. Cras ac fermentum urna. Morbi eget dolor finibus odio sodales luctus tincidunt eget mi. Curabitur faucibus maximus diam auctor mollis. Donec in magna eget odio dictum malesuada eu id leo. Ut a quam ipsum. Vestibulum elementum nec velit in dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Donec sed ex turpis. Aenean nulla ipsum, molestie id fringilla sit amet, lobortis sit amet mauris. Nulla sed elit eget est consequat dignissim non id ipsum. Nunc in vulputate purus. Quisque non accumsan diam. Aliquam congue quis neque non volutpat. Morbi eget neque sed nisi hendrerit eleifend at a nibh.
+<div class="cf">
+	<div class="fl w-100 w-50-l">
+		<h1 class="f2 mb4">Equipe nutrição</h1>
+
+		<div class="equipe_card">
+			<h2 class="f4">Lívia Timbó Catunda Bezerra</h2>
+			<p class="i mb3">CRN 10922</p>
+
+			<ul class="mb3">
+				<li>• Graduação em Nutrição: Universidade de Fortaleza</li>
+				<li>• Extensão em Nutrição e Cardiologia: Instituto Dante Pazzanese de Cardiologia</li>
+				<li>• Extensão em Nutrição e Cardiologia Pediátrica: Incor</li>
+				<li>• Aprimoramento em Transplante Cardíaco: Hospital de Messejana Dr Carlos
+				Alberto Sturdart Gomes</li>
+				<li>• Mestrado em Curso: Universidade Federal de São Paulo</li>
+			</ul>
+
+			<h3 class="mb3">Atuação:</h3>
+			<ul>
+				<li>• UNIFESP: Ambulatório de Insuficiência Cardíaca e Transplante Cardíaco;</li>
+				<li>• Nefroclínica: Clínica de diálise;</li>
+				<li>• Hospital São Luiz Jabaquara: Ambulatório de Cardiologia e Cirurgia bariátrica.</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="fl w-100 w-50-l">
+		
+	</div>
+</div>
