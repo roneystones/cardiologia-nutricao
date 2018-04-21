@@ -1,7 +1,11 @@
-$cor-base: #555;
-$cor-primaria: #ba235c;
+$cor-base: #555; //preto
+$cor-primaria: #ba235c; //vermelho
 
 $font-primaria: 'Roboto', Helvetica, Arial, sans-serif;
 $font-secundaria: 'Lora', serif;
 
 $border-radius: .25rem;
+
+.cor-primaria {
+    color: $cor-primaria;
+}
