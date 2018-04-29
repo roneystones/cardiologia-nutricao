@@ -1,34 +1,34 @@
 ---
-layout: page
+layout: base
 title: A Clínica
 permalink: /a-clinica/
 description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
 ---
 
-<div class="cf">
-	<div class="w-100 w-50-l center">
-		<div class="tc mb3">		
-			<button class="prev">←</button>
-			<button class="next">→</button>	
+<section>
+	<div class="grid wrap wider">
+		<div class="unit half">
+  			<img src="../assets/images/clinica (1).jpeg" alt="">
 		</div>
 
-		<div class="siema">
-		  <img class="dn db-l" src="../assets/images/clinica (1).jpeg" alt="">
-		  <img class="dn db-l" src="../assets/images/clinica (2).jpeg" alt="">
-		  <img class="dn db-l" src="../assets/images/clinica (3).jpeg" alt="">
-		  <img class="dn db-l" src="../assets/images/clinica (4).jpeg" alt="">
-		  <img class="dn db-l" src="../assets/images/clinica (5).jpeg" alt="">
-		</div>	
+		<div class="unit half">
+  			<img src="../assets/images/clinica (2).jpeg" alt="">
+		</div>
 	</div>
-</div>
 
-<script src="../assets/scripts/script.js"></script>
+	<div class="grid wrap wider">
+		<div class="unit half">
+		 	<img src="../assets/images/clinica (3).jpeg" alt="">
+		</div>
 
-<script>
-	const mySiema = new Siema();
-	const prev = document.querySelector('.prev');
-	const next = document.querySelector('.next');
+		<div class="unit half">
+  			<img src="../assets/images/clinica (4).jpeg" alt="">
+		</div>
+	</div>
 
-	prev.addEventListener('click', () => mySiema.prev());
-	next.addEventListener('click', () => mySiema.next());
-</script>
+	<div class="grid wrap wider">
+		<div class="unit half">
+  			<img src="../assets/images/clinica (5).jpeg" alt="">
+		</div>
+	</div>
+</section>
