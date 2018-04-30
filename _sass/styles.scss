@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700, 700i');
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700, 700i');
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
 nav,
 .pre-titulo {
     font-family: $font-secundaria;
@@ -49,11 +60,11 @@ nav {
 }
 
 section {
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 .banner {
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
     background-image: url(images/banner-background.png);
     background-size: cover;
     background-position: bottom;
@@ -106,16 +117,25 @@ section {
 }
 
 .equipe_card {
-    margin-bottom: 50px;
+    font-size: 80%;
 
     h2 {
         color: $cor-primaria;
         font-weight: bold;
+        margin-bottom: 0;
     }
 
     h3 {
         color: darken($cor-base, 20%);
         font-weight: bold;
+    }
+
+    img {
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style: inside;
     }
 }
 
@@ -125,10 +145,10 @@ section {
 }
 
 footer {
-    padding: 4rem 0;
+    padding: 2rem 0;
     background-color: $cor-primaria;
     color: #fff;
-    
+
     h1 {
         color: #fff;
     }
@@ -144,8 +164,9 @@ img {
 }
 
 form {
-    background-color: darken($cor-primaria, 10%);
     padding: 2rem;
+    background-color: darken($cor-primaria, 10%);
+    border-radius: $border-radius;
 
     .form-item {
         margin-bottom: 1rem;
