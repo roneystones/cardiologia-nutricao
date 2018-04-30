@@ -1,11 +1,9 @@
-html,
-.root {
+html {
     font-size: 18px;
     line-height: 32px;
 }
 
-body,
-.article {
+body {
     font-family: $font-primaria;
     font-size: 1em;
     line-height: 1.77777778em;
@@ -19,8 +17,15 @@ body,
     font-style: italic;
 }
 
-h1,
-.h1 {
+.pos-titulo {
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h1 {
     color: #000;
     font-family: $font-secundaria;
     font-size: 2.51111111em;
@@ -30,31 +35,26 @@ h1,
     margin-bottom: 0.68085106em;
 }
 
-h2,
-.h2 {
+h2 {
     font-family: $font-secundaria;
     font-size: 1.61111111em;
-    line-height: 1.10344828em;
+    line-height: 1.61111111em;
     margin-top: 1.10344828em;
     margin-bottom: 1.10344828em;
 }
 
-h3,
-.h3 {
-    font-family: $font-secundaria;
+h3 {
     font-size: 1em;
     line-height: 1.77777778em;
     margin-top: 1.77777778em;
     margin-bottom: 1.77777778em;
 }
 
-h4,
-.h4 {
-    font-family: $font-secundaria;
+h4 {
     font-size: 1em;
     line-height: 1.77777778em;
     margin-top: 1.77777778em;
-    margin-bottom: 0em;
+    margin-bottom: 1.77777778em;
 }
 
 a {
@@ -92,10 +92,10 @@ ol ul {
 }
 
 
+
 /* Let's make sure all's aligned */
 
-hr,
-.hr {
+hr {
     border: 1px solid;
     margin: -1px 0;
 }
