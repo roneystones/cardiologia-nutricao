@@ -6,69 +6,70 @@ html {
 body {
     font-family: $font-primaria;
     font-size: 1em;
-    line-height: 1.77777778em;
+    line-height: 1.75em;
     color: $cor-base;
     margin: auto;
 }
 
 .pre-titulo {
+    font-family: $font-secundaria;
     color: $cor-primaria;
     font-weight: 700;
     font-style: italic;
+    margin-top: 1em;
+    margin-bottom: 0
 }
 
-.pos-titulo {
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 2em;
+h1,
+h2 {
+    font-family: $font-secundaria;
     font-weight: 700;
+    color: #000;
+    line-height: 1.4em;
 }
 
 h1 {
-    color: #000;
-    font-family: $font-secundaria;
-    font-size: 2.51111111em;
-    font-weight: 700;
-    line-height: 1.36170213em;
-    margin-top: 0.68085106em;
-    margin-bottom: 0.68085106em;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+    @include media-breakpoint-up(sm) {
+        font-size: 2.5em;
+    }
 }
 
 h2 {
-    font-family: $font-secundaria;
-    font-size: 1.61111111em;
-    line-height: 1.61111111em;
-    margin-top: 1.10344828em;
-    margin-bottom: 1.10344828em;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-up(sm) {
+        font-size: 2em;
+    }
 }
 
-h3 {
-    font-size: 1em;
-    line-height: 1.77777778em;
-    margin-top: 1.77777778em;
-    margin-bottom: 1.77777778em;
-}
-
+h3,
 h4 {
     font-size: 1em;
-    line-height: 1.77777778em;
-    margin-top: 1.77777778em;
-    margin-bottom: 1.77777778em;
+    line-height: 1.4em;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 a {
     color: $cor-primaria;
-    text-decoration: none;
     font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid $cor-primaria;
+    padding-bottom: .1em;
 
     &:hover,
     &:focus {
-        color: darken($cor-primaria, 5%);
+        color: lighten($cor-primaria, 20%);
         transition: opacity .15s ease-in;
     }
     &:active {
-        color: darken($cor-primaria, 10%);
+        color: lighten($cor-primaria, 50%);
         transition: opacity .15s ease-out;
     }
 }
@@ -80,7 +81,7 @@ pre,
 table,
 blockquote {
     margin-top: 0em;
-    margin-bottom: 1.77777778em;
+    margin-bottom: 2em;
 }
 
 ul ul,
@@ -90,6 +91,7 @@ ol ul {
     margin-top: 0em;
     margin-bottom: 0em;
 }
+
 
 
 
