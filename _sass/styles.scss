@@ -50,7 +50,7 @@ nav {
         }
 
         @include media-breakpoint-up(sm) {
-            margin-right: 3rem;
+            margin-right: 2rem;
         }
     }
 }
@@ -59,7 +59,7 @@ section {
     padding: 1rem 0;
 
     @include media-breakpoint-up(sm) {
-         padding: 2rem 0;
+        padding: 2rem 0;
     }
 }
 
@@ -70,7 +70,7 @@ section {
     background-position: bottom;
 
     @include media-breakpoint-up(sm) {
-         padding-bottom: 8rem;
+        padding-bottom: 8rem;
     }
 
     img {
@@ -79,6 +79,54 @@ section {
         @include media-breakpoint-up(sm) {
             display: block;
         }
+    }
+}
+
+.doencas-box {
+    text-align: center;
+
+    a {
+        color: initial;
+        line-height: 140%;
+        border: none;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            color: lighten($cor-primaria, 20%);
+            transition: opacity .15s ease-in;
+        }
+
+        &:active {
+            color: lighten($cor-primaria, 50%);
+            transition: opacity .15s ease-in;
+        }
+    }
+
+    .img-icone {
+        width: 60px;
+        margin: 0 auto .5rem;
+    }
+}
+
+.modal-body {
+    text-align: left;
+    padding: 1rem 2rem;
+
+    @include media-breakpoint-up(sm) {
+         padding: 1.5rem 3rem;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    li {
+        margin-left: 1em;
     }
 }
 
@@ -100,7 +148,7 @@ section {
         display: inline-block;
         margin-right: 1rem;
         margin-bottom: 0;
-    } 
+    }
 
     &:hover,
     &:focus {
@@ -188,7 +236,7 @@ footer {
         font-weight: 400;
         margin-bottom: 4rem;
     }
-    
+
     span {
         font-weight: 700;
         border-bottom: 1px solid #fff;
@@ -205,10 +253,7 @@ footer {
     }
 }
 
-.img-icone {
-    width: 60px;
-    margin: 0 auto .5rem;
-}
+
 
 form {
     padding: 2rem;

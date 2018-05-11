@@ -12,7 +12,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
 				<h1>Mais do que tratar doenças. Nós as prevenimos!</h1>
 
-				<h3>Escolhemos atuar na prevenção, diagnóstico e tratamento das doenças cardíacas visto que são a principal causa de mortalidade em todo o mundo. <a href="/contato/">Agende sua visita</a> e conheça nosso trabalho.</h3>
+				<h3>Escolhemos atuar na prevenção, diagnóstico e tratamento das doenças cardíacas visto que são a principal causa de morte em todo o mundo. <a href="/contato/">Agende sua visita</a> e conheça nosso trabalho.</h3>
 
 				<a class="btn" href="/cardiologia/">Cardiologia</a>
 				<a class="btn" href="/nutricao/">Nutrição</a>
@@ -29,40 +29,241 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 	<div class="container">	
 		<div class="row">
 			<div class="col-12 col-sm-5">		
-				<h2>Conheça um pouco mais sobre as doenças</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laborum vitae illum ea obcaecati ab unde, incidunt ex odit rem.</p>
+				<h2>Conheça um pouco mais sobre as doenças:</h2>
+				<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laborum vitae illum ea obcaecati ab unde, incidunt ex odit rem.</p> -->
 			</div>
 
 			<div class="col-12 col-sm-7">		
-				<div class="row text-center">
+				<div class="row doencas-box">
 					<div class="col-6 col-sm-4">
-						<img class="img-icone" src="../assets/images/icone.png" alt="">
-						<p>Hipertensão</p>
+						<a href="#" data-toggle="modal" data-target="#modalHipertensao">
+							<img class="img-icone" src="../assets/images/icone.png" alt="">
+							<p>Hipertensão</p>
+						</a>
+						<!-- Modal -->
+						<div class="modal fade" id="modalHipertensao" tabindex="-1" role="dialog" aria-labelledby="modalHipertensaoTitle" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<h1 class="modal-title" id="modalHipertensaoTitle">Hipertensão</h1>
+
+										<h2>1. O que é?</h2>
+										<p>A Hipertensão arterial é caracterizada por níveis pressóricos elevados e sustentados com valores maiores que 140x90mmHg. É doença silenciosa e geralmente não apresenta sintomatologia.</p>
+
+										<h2>2. É uma doença frequente da população brasileira?</h2>
+										<p>A hipertensão no Brasil atinge cerca de 32,5% de indivíduos na fase adulta e 60% dos idosos.</p>
+
+										<h2>3. Quais são os fatores de risco?</h2>
+										<p>Os fatores de risco são:</p>
+										<ul>
+											<li>Idade</li>
+											<li>Obesidade</li>
+											<li>Consumo excessivo de sal</li>
+											<li>Abuso de álcool</li>
+											<li>Etnia</li>
+											<li>Genética</li>
+										</ul>
+
+										<h2>4. O que é Hipertensão secundária?</h2>
+										<p>Este tipo de hipertensão é secundária a alguma doença e geralmente a correção e tratamento desta melhora os níveis pressóricos. Essas doenças são:</p>
+										<ul>
+											<li>Doenças renais</li>
+											<li>Feocromocitoma</li>
+											<li>Síndrome Cushing</li>
+											<li>Coartação de aorta</li>
+											<li>Apnéia do sono</li>
+											<li>Hiperaldosteronismo primário</li>
+											<li>Anticoncepcional e outras medicações</li>
+										</ul>
+
+										<h2>5. O que é Hipertensão do avental branco?</h2>
+										<p>É definido por valores anormais de pressão dentro do consultório porém normais fora dele.</p>
+
+										<h2>6. Como tratar a Hipertensão?</h2>
+										<p>O tratamento deve ser realizado com medidas comportamentais (perda de peso, exercício físico) e medicamentosas de acordo com o estágio da hipertensão e o risco de doenças cardiovasculares associadas.</p>									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<div class="col-6 col-sm-4">
-						<img class="img-icone" src="../assets/images/icone.png" alt="">
-						<p>Insuficiência Cardíaca</p>
+						<a href="#" data-toggle="modal" data-target="#modalinsuficiencia">
+							<img class="img-icone" src="../assets/images/icone.png" alt="">
+							<p>Insuficiência Cardíaca</p>
+						</a>
+						<!-- Modal -->
+						<div class="modal fade" id="modalinsuficiencia" tabindex="-1" role="dialog" aria-labelledby="modalinsuficienciaTitle" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<h1>Insuficiência Cardíaca</h1>
+
+										<h2>1. O que é?</h2>
+										<p>A Insuficiência Cardíaca é uma condição clínica em que o coração apresenta
+										uma disfunção no músculo cardíaco. Na maioria das vezes levando a uma
+										diminuição da força de contração, ou seja, no bombeamento do sangue pelo
+										coração.</p>
+										<p>É popularmente conhecida como coração grande ou coração fraco</p>
+
+										<h2>2. Quais são os sintomas?</h2>
+										<p>Inicialmente pode não haver sintomas, e com a progressão da doença a pessoa
+										pode sentir cansaço (fraqueza), inchaço nas pernas, falta de ar aos esforços, tosse
+										seca (principalmente ao deitar)</p>
+										<p>Esses sintomas geralmente são discretos e vão piorando ao longo do tempo</p>
+
+										<h2>3. O que causa a Insuficiência Cardíaca?</h2>
+										<p>Na maioria das vezes ela é decorrente de outras doenças, como a hipertensão
+										mal controlada, infarto agudo do miocárdio, doença de Chagas, problemas
+										valvares, medicações como quimioterapia, entre outros.</p>
+
+										<h2>4. Como faz o diagnósticos?</h2>
+										<p>Para o diagnóstico correto é necessário a avaliação de um médico, que realizará
+										exame clínico e exames complementares como ecocardiograma.</p>
+
+										<h2>5. Como tratar?</h2>
+										<p>Para o tratamento da Insuficiência Cardíaca é necessário medicações
+										específicas e mudanças no estilo de vida como dieta e atividade física.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<div class="col-6 col-sm-4">
-						<img class="img-icone" src="../assets/images/icone.png" alt="">
-						<p>Diabetes</p>
+						<a href="#">
+							<img class="img-icone" src="../assets/images/icone.png" alt="">
+							<p>Diabetes</p>
+						</a>
 					</div>
 
 					<div class="col-6 col-sm-4">
-						<img class="img-icone" src="../assets/images/icone.png" alt="">
-						<p>Dislipidemia</p>
+						<a href="#" data-toggle="modal" data-target="#modalDislipidemia">
+							<img class="img-icone" src="../assets/images/icone.png" alt="">
+							<p>Dislipidemia</p>
+						</a>
+						<!-- Modal -->
+						<div class="modal fade" id="modalDislipidemia" tabindex="-1" role="dialog" aria-labelledby="modalDislipidemiaTitle" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<h1>Dislipidemia</h1>
+
+										<h2>1. O que é Dislipidemia?</h2>
+										<p>É o colesterol anormalmente elevado. Caracterizado pela presença de níveis elevados de lipídeos (gordura) no sangue.</p>
+										<p>aterosclerose é um processo inflamatório crônico que se inicia por agressões dos vasos do corpo, principalmente do coração.</p>
+
+										<h2>2. Qual a função do colesterol no nosso organismo?</h2>
+										<p>Possuem diversas funções em nosso organismo como:</p>
+										<ul>
+											<li> Armazenamento de energia</li>
+											<li> Sinalização celular</li>
+											<li> Composição de vitaminas</li>
+											<li> Formação de membranas celulares</li>
+										</ul>
+
+										<h2>3. Como é feito o diagnóstico?</h2>
+										<p>O diagnóstico é realizado através da avaliação clínica e com exames de sangue.</p>
+
+										<h2>4. Como é classificada a Dislipidemia?</h2>
+										<p>Classificação:</p>
+										<ul>											
+											<li>Hipercolesterolemia isolada – LDL > 160mg/dl</li>
+											<li>Hipertrigliceridemia isolada – TG > 150mg/dl</li>
+											<li>Hiperlipidemia mista</li>
+										</ul>
+
+										<h2>5. Quando devo começar a avaliar meu colesterol?</h2>
+										<p>A dosagem do colesterol deve ser realizado a partir dos 35 anos em homens e a partir dos 45 anos para mulheres. Apresentando fatores de risco adicionais (doença cardíaca na familiar, outras doenças em tratamento pelo paciente), devemos avaliar a partir dos 20 anos de idade para ambos os gêneros.</p>
+
+										<h2>6. Como tratar?</h2>
+										<p>O tratamento é realizado através de medidas comportamentais (dieta, exercícios físicos, perda de peso) e Estatina se necessário. Os fibratos são utilizados no aumento isolado dos triglicerídeos.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>							
 					</div>
 
 					<div class="col-6 col-sm-4">
-						<img class="img-icone" src="../assets/images/icone.png" alt="">
-						<p>Infarto</p>
+						<a href="#" data-toggle="modal" data-target="#modalinfarto">
+							<img class="img-icone" src="../assets/images/icone.png" alt="">
+							<p>Infarto</p>
+						</a>
+						<!-- Modal -->
+						<div class="modal fade" id="modalinfarto" tabindex="-1" role="dialog" aria-labelledby="modalinfartoTitle" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<h1>Infarto Agudo do Miocárdio</h1>
+
+										<h2>1. O que é?</h2>
+										<p>O infarto do miocárdio é uma doença causada pela interrupção do fluxo de sangue em um vaso que irriga o coração (vaso coronariano).</p>
+										<p>Na maioria dos casos essa interrupção do fluxo sanguíneo ocorre pela formação de placas ateroscleróticas (placas de gordura) dentro do vaso.</p>
+
+										<h2>2. Quais são os fatores que levam ao infarto?</h2>
+										<p>São vários os fatores de risco para o infarto agudo do miocárdio, quanto mais fatores maior a chance de ocorrer. São eles:</p>
+										<ul>
+											<li>História Familiar de infarto</li>
+											<li>Diabetes mal controlado</li>
+											<li>Hipertensão mal controlada</li>
+											<li>Tabagismo</li>
+											<li>Uso de drogas ilícitas</li>
+											<li>Obesidade</li>
+											<li>Dislipidemia</li>
+										</ul>
+
+										<h2>3. Quais são os sintomas?</h2>
+										<p>Geralmente as pessoas sentem dor no peito em aperto ou opressão com irradiação para o braço esquerdo ou região cervical e mandíbula, associado a suor frio, falta de ar, palidez, náuseas.</p>
+										<p>Entretanto pode ocorrer sem dor no peito, característica principal em: idosos, mulheres e diabéticos.</p>
+
+										<h2>4. Como faz o diagnóstico e tratamento?</h2>
+										<p>Na suspeita de infarto ou aparecimento de sintomas como falta de ar, sudorese e dor no estômago aguda deve-se procurar o serviço de emergência mais próximo para diagnóstico e tratamento corretos.</p>
+
+										<h2>5. Como faço para prevenir?</h2>
+										<p>A prevenção do infarto agudo do miocárdio é feita através do controle dos fatores de risco.</p>
+										<p>É necessário acompanhamento médico para controle da pressão arterial e diabetes, cessar tabagismo, dieta e atividade física.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+									</div>
+								</div>
+							</div>
+						</div>						
 					</div>
 
 					<div class="col-6 col-sm-4">
-						<img class="img-icone" src="../assets/images/icone.png" alt="">
-						<p>Obesidade</p>
+						<a href="#">
+							<img class="img-icone" src="../assets/images/icone.png" alt="">
+							<p>Obesidade</p>
+						</a>
 					</div>
 				</div>
 			</div>	
