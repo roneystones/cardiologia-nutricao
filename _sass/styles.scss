@@ -15,7 +15,7 @@ nav {
     text-align: center;
     padding: 2rem 0;
 
-    @include media-breakpoint-up(sm) {
+    @media (min-width: 768px) {
         text-align: left;
     }
 
@@ -33,7 +33,7 @@ nav {
     ul {
         margin-top: 2rem;
 
-        @include media-breakpoint-up(sm) {
+        @media (min-width: 768px) {
             margin-top: 1rem;
             text-align: right;
         }
@@ -49,7 +49,7 @@ nav {
             font-weight: 700;
         }
 
-        @include media-breakpoint-up(sm) {
+        @media (min-width: 768px) {
             margin-right: 2rem;
         }
     }
@@ -58,25 +58,25 @@ nav {
 section {
     padding: 1rem 0;
 
-    @include media-breakpoint-up(sm) {
-        padding: 2rem 0;
+    @media (min-width: 768px) {
+        padding: 4rem 0;
     }
 }
 
 .banner {
-    padding-bottom: 4rem;
+    padding: 2rem 0 4rem 0;
     background-image: url(images/banner-background.png);
     background-size: cover;
     background-position: bottom;
 
-    @include media-breakpoint-up(sm) {
+    @media (min-width: 768px) {
         padding-bottom: 8rem;
     }
 
     img {
         display: none;
 
-        @include media-breakpoint-up(sm) {
+        @media (min-width: 768px) {
             display: block;
         }
     }
@@ -113,8 +113,8 @@ section {
     text-align: left;
     padding: 1rem 2rem;
 
-    @include media-breakpoint-up(sm) {
-         padding: 1.5rem 3rem;
+    @media (min-width: 768px) {
+        padding: 1.5rem 3rem;
     }
 
     h1 {
@@ -144,7 +144,7 @@ section {
     border: 0;
     border-radius: $border-radius;
 
-    @include media-breakpoint-up(md) {
+    @media (min-width: 768px) {
         display: inline-block;
         margin-right: 1rem;
         margin-bottom: 0;
@@ -221,33 +221,34 @@ section {
 
 
 footer {
-    padding: 2rem 0;
+    padding: 4rem 0;
     background-color: $cor-primaria;
     color: #fff;
 
-    h1,
     h2 {
+        color: #fff;
+        margin-bottom: 3rem;
+    }
+
+    p {
+        font-size: .90em;
+        margin: 0;
+    }
+
+    a {
         color: #fff;
     }
 
-    h2 {
-        font-family: $font-primaria;
-        font-size: 1.4em;
-        font-weight: 400;
-        margin-bottom: 4rem;
-    }
-
-    span {
-        font-weight: 700;
-        border-bottom: 1px solid #fff;
-        padding-bottom: 0.1em;
+    .media {
+        align-items: center;
+        margin-bottom: 4em;
     }
 
     .mapa {
         border-radius: $border-radius;
         margin-bottom: 2rem;
 
-        @include media-breakpoint-up(sm) {
+        @media (min-width: 768px) {
             margin-bottom: 0;
         }
     }
@@ -275,4 +276,10 @@ form {
         border: 0;
         border-radius: $border-radius;
     }
+}
+
+hr {
+    border: 1px solid #ba235c;
+    margin: 4rem 0;
+    height: 0;
 }
