@@ -50,42 +50,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</button>
 									</div>
 									<div class="modal-body">
-										<h1 class="modal-title" id="modalHipertensaoTitle">Hipertensão</h1>
-
-										<h2>1. O que é?</h2>
-										<p>A Hipertensão arterial é caracterizada por níveis pressóricos elevados e sustentados com valores maiores que 140x90mmHg. É doença silenciosa e geralmente não apresenta sintomatologia.</p>
-
-										<h2>2. É uma doença frequente da população brasileira?</h2>
-										<p>A hipertensão no Brasil atinge cerca de 32,5% de indivíduos na fase adulta e 60% dos idosos.</p>
-
-										<h2>3. Quais são os fatores de risco?</h2>
-										<p>Os fatores de risco são:</p>
-										<ul>
-											<li>Idade</li>
-											<li>Obesidade</li>
-											<li>Consumo excessivo de sal</li>
-											<li>Abuso de álcool</li>
-											<li>Etnia</li>
-											<li>Genética</li>
-										</ul>
-
-										<h2>4. O que é Hipertensão secundária?</h2>
-										<p>Este tipo de hipertensão é secundária a alguma doença e geralmente a correção e tratamento desta melhora os níveis pressóricos. Essas doenças são:</p>
-										<ul>
-											<li>Doenças renais</li>
-											<li>Feocromocitoma</li>
-											<li>Síndrome Cushing</li>
-											<li>Coartação de aorta</li>
-											<li>Apnéia do sono</li>
-											<li>Hiperaldosteronismo primário</li>
-											<li>Anticoncepcional e outras medicações</li>
-										</ul>
-
-										<h2>5. O que é Hipertensão do avental branco?</h2>
-										<p>É definido por valores anormais de pressão dentro do consultório porém normais fora dele.</p>
-
-										<h2>6. Como tratar a Hipertensão?</h2>
-										<p>O tratamento deve ser realizado com medidas comportamentais (perda de peso, exercício físico) e medicamentosas de acordo com o estágio da hipertensão e o risco de doenças cardiovasculares associadas.</p>									</div>
+										{% include doenca-hipertencao.html %}
+									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
 									</div>
@@ -109,33 +75,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</button>
 									</div>
 									<div class="modal-body">
-										<h1>Insuficiência Cardíaca</h1>
-
-										<h2>1. O que é?</h2>
-										<p>A Insuficiência Cardíaca é uma condição clínica em que o coração apresenta
-										uma disfunção no músculo cardíaco. Na maioria das vezes levando a uma
-										diminuição da força de contração, ou seja, no bombeamento do sangue pelo
-										coração.</p>
-										<p>É popularmente conhecida como coração grande ou coração fraco</p>
-
-										<h2>2. Quais são os sintomas?</h2>
-										<p>Inicialmente pode não haver sintomas, e com a progressão da doença a pessoa
-										pode sentir cansaço (fraqueza), inchaço nas pernas, falta de ar aos esforços, tosse
-										seca (principalmente ao deitar)</p>
-										<p>Esses sintomas geralmente são discretos e vão piorando ao longo do tempo</p>
-
-										<h2>3. O que causa a Insuficiência Cardíaca?</h2>
-										<p>Na maioria das vezes ela é decorrente de outras doenças, como a hipertensão
-										mal controlada, infarto agudo do miocárdio, doença de Chagas, problemas
-										valvares, medicações como quimioterapia, entre outros.</p>
-
-										<h2>4. Como faz o diagnóstico?</h2>
-										<p>Para o diagnóstico correto é necessário a avaliação de um médico, que realizará
-										exame clínico e exames complementares como ecocardiograma.</p>
-
-										<h2>5. Como tratar?</h2>
-										<p>Para o tratamento da Insuficiência Cardíaca é necessário medicações
-										específicas e mudanças no estilo de vida como dieta e atividade física.</p>
+										{% include doenca-insuficiencia.html %}
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -160,31 +100,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</button>
 									</div>
 									<div class="modal-body">
-										<h1>Diabetes</h1>
-
-										<h2>1. O que é Diabetes Mellitus?</h2>
-										<p>O diabetes mellitus (DM) consiste em um distúrbio metabólico caracterizado por hiperglicemia (elevação de glicose no sangue) persistente, decorrente de deficiência na produção de insulina ou na sua ação, ou em ambos os mecanismos, ocasionando complicações em longo prazo. Atualmente atinge grandes proporções, com estimativa de 415 milhões de portadores de diabéticos mundialmente.</p>
-
-										<h2>Quais os tipos de diabetes?</h2>
-										<p>Diabetes mellitus tipo 1 (DM1): é uma doença autoimune onde ocasiona a deficiência completa na produção de insulina. Pode ser desencadeada em qualquer faixa etária mas acomete principalmente crianças e jovens adultos. Os principais sintomas são: aumento excessivo de fome, sede e diurese, emagrecimento importante e em curto período, fraqueza e cansaço.</p>
-
-										<p>Diabetes mellitus tipo 2 (DM2): é uma doença que pode ser genética ou adquirida. Nessa forma ocorre uma resistência ou diminuição na produção de insulina, que é responsável por fazer com o que o açúcar que fica no sangue seja conduzido para nossas células, fazendo com que haja acúmulo de açúcar e assim aumente as taxas de glicose. Corresponde 90 a 95% de todos os casos de DM e normalmente acomete adultos a partir dos 50 anos. Os sintomas como sede, alterações na visão, cansaço, feridas que demoram a cicatrizar, podem demorar mais tempo para aparecer.</p>
-
-										<p>Diabetes gestacional: desenvolve-se devido a uma resistência à insulina ocasionada pelos hormônios da gravidez, ocorre no período do terceiro trimestre da gestação e normalmente some após o parto.</p>
-
-										<h2>Como é feito o diagnóstico?</h2>
-										<p>O diagnóstico é feito por meio de exames laboratoriais:</p>
-
-										<ul>
-											<li>1) glicemia de jejum > 126 mg/dl (jejum de 8 horas)</li>
-											<li>2) glicemia casual (colhida em qualquer horário do dia, independente da última refeição realizada (> 200mg/dl em paciente com sintomas característicos de diabetes).</li>
-											<li>3) glicemia > 200 mg/dl duas horas após sobrecarga oral de 75 gramas de glicose.</li>
-										</ul>
-
-										<h2>Como é feito o tratamento?</h2>
-										<p>Para o tratamento da Diabetes é necessário medicações específicas, tais como metformina, glicazida, insulina e mudanças no estilo de vida como dieta, atividade física e controle de peso. Por isso é importante que o paciente seja sempre acompanhado pelo medico e nutricionista.</p>
-
-										<p>Fonte: Diretrizes da Sociedade Brasileira de Diabetes, 2017-2018</p>										
+										{% include doenca-diabetes.html %}
 									</div>
 
 									<div class="modal-footer">
@@ -210,37 +126,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</button>
 									</div>
 									<div class="modal-body">
-										<h1>Dislipidemia</h1>
-
-										<h2>1. O que é Dislipidemia?</h2>
-										<p>É o colesterol anormalmente elevado, caracterizado pela presença de níveis aumentados de lipídeos (gordura) no sangue.</p>
-										<p>A dislipidemia pode levar a aterosclerose que é um processo inflamatório crônico que se inicia por agressões dos vasos do corpo, principalmente do coração.</p>
-
-										<h2>2. Qual a função do colesterol no nosso organismo?</h2>
-										<p>Possuem diversas funções em nosso organismo como:</p>
-										<ul>
-											<li> Armazenamento de energia</li>
-											<li> Sinalização celular</li>
-											<li> Composição de vitaminas</li>
-											<li> Formação de membranas celulares</li>
-										</ul>
-
-										<h2>3. Como é feito o diagnóstico?</h2>
-										<p>O diagnóstico é realizado através da avaliação clínica e com exames de sangue.</p>
-
-										<h2>4. Como é classificada a Dislipidemia?</h2>
-										<p>Classificação:</p>
-										<ul>											
-											<li>Hipercolesterolemia isolada – LDL > 160mg/dl</li>
-											<li>Hipertrigliceridemia isolada – TG > 150mg/dl</li>
-											<li>Hiperlipidemia mista</li>
-										</ul>
-
-										<h2>5. Quando devo começar a avaliar meu colesterol?</h2>
-										<p>A dosagem do colesterol deve ser realizado a partir dos 35 anos em homens e a partir dos 45 anos para mulheres. Apresentando fatores de risco adicionais (doença cardíaca na familiar, outras doenças em tratamento pelo paciente), devemos avaliar a partir dos 20 anos de idade para ambos os gêneros.</p>
-
-										<h2>6. Como tratar?</h2>
-										<p>O tratamento é realizado através de medidas comportamentais (dieta, exercícios físicos, perda de peso) e Estatina se necessário. Os fibratos são utilizados no aumento isolado dos triglicerídeos.</p>
+										{% include doenca-dislipidemia.html %}
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -265,34 +151,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</button>
 									</div>
 									<div class="modal-body">
-										<h1>Infarto Agudo do Miocárdio</h1>
-
-										<h2>1. O que é?</h2>
-										<p>O infarto do miocárdio é uma doença causada pela interrupção do fluxo de sangue em um vaso que irriga o coração (vaso coronariano).</p>
-										<p>Na maioria dos casos essa interrupção do fluxo sanguíneo ocorre pela formação de placas ateroscleróticas (placas de gordura) dentro do vaso.</p>
-
-										<h2>2. Quais são os fatores que levam ao infarto?</h2>
-										<p>São vários os fatores de risco para o infarto agudo do miocárdio, quanto mais fatores maior a chance de ocorrer. São eles:</p>
-										<ul>
-											<li>História Familiar de infarto</li>
-											<li>Diabetes mal controlado</li>
-											<li>Hipertensão mal controlada</li>
-											<li>Tabagismo</li>
-											<li>Uso de drogas ilícitas</li>
-											<li>Obesidade</li>
-											<li>Dislipidemia</li>
-										</ul>
-
-										<h2>3. Quais são os sintomas?</h2>
-										<p>Geralmente as pessoas sentem dor no peito em aperto ou opressão com irradiação para o braço esquerdo ou região cervical e mandíbula, associado a suor frio, falta de ar, palidez, náuseas.</p>
-										<p>Entretanto pode ocorrer sem dor no peito, característica principal em: idosos, mulheres e diabéticos.</p>
-
-										<h2>4. Como faz o diagnóstico e tratamento?</h2>
-										<p>Na suspeita de infarto ou aparecimento de sintomas como falta de ar, sudorese e dor no estômago aguda deve-se procurar o serviço de emergência mais próximo para diagnóstico e tratamento corretos.</p>
-
-										<h2>5. Como faço para prevenir?</h2>
-										<p>A prevenção do infarto agudo do miocárdio é feita através do controle dos fatores de risco.</p>
-										<p>É necessário acompanhamento médico para controle da pressão arterial e diabetes, cessar tabagismo, dieta e atividade física.</p>
+										{% include doenca-infarto.html %}
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -317,34 +176,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 										</button>
 									</div>
 									<div class="modal-body">
-										<h2>O que é obesidade?</h2>
-										<p>É uma doença crônica, progressiva e fatal e é caracterizada pelo acúmulo excessivo de gordura corporal no indivíduo e pode acometer todas as idades. A obesidade é um fato de risco para o surgimento de outras doenças, tais como diabetes, hipertensão arteiral e doencas cardiovasculares.</p>
-
-										<h2>Quais as causas da obesidade?</h2>
-										<p>A obesidade pode ser causada por fatores genéticos, ambientais, emocionais, disturbios nutricionais, alterações endocrinas, inatividade fisica e outros.</p>
-
-										<h2>Como é feito o diganostico?</h2>
-										<p>A Organização Mundial de Saúde recomenda que o diagnostico seja feito por meio do cálculo do IMC (Indice de Massa Corporea), que consiste em dividir o peso pela altura ao quadrado.</p>
-										<ul>
-											<li>Baixo peso: IMC menor que 18.5kg/m2</li>
-											<li>Peso normal: IMC entre 18.5 a 24,9kg/m2</li>
-											<li>Sobrepeso: IMC entre 25.0 a 29,9kg/m2</li>
-											<li>Obesidade grau 1:IMC entre 30.0 - 34.9 kg/m2;</li>
-											<li>Obesidade grau 2:IMC entre 35.0 - 39.9 kg/m2;</li>
-											<li>Obesidade grau 3ouobesidade mórbida:IMC igual ou superior 40 kg/m2</li>
-										</ul>
-
-										<h2>Quais os tipos de obesidade?</h2>
-										<p>Obesidade abdominalou obesidade em forma de maçã: o excesso de gordura se concentra principalmente no abdômem e na cintura, é mais comum em homens e pode levar ao desenvolvimento de doenças cardiovasculares.</p>
-
-										<p>Obesidade periférica ou obesidade em forma de pêra: a gordura se acumula nas coxas, nádegas e quadril, e é mais comum em mulheres e pode levar ao aumento do risco de doenças cardíacas, diabetes, artrite.</p>
-
-										<p>Obesidade homogêna: a gordura não fica localizada em lugares especificos e sim no corpo todo.</p>
-
-										<h2>Como é feito o tratamento?</h2>
-										<p>O tratamento é feito por meio de mudança no estilo de vida como dieta individualizada para cada caso, atividade fisica, reeducação alimentar, acompanhamento psicologico e em alguns casos uso de medicações específicas. Para o sucesso do tratamento a curto e longo prazo é essencial que haja interação entre medico, nutricionista e paciente.</p>
-
-										<p>Fonte: Diretrizes Brasileiras de Obesidade, 2016; Manual de Diretrizes para o enfrentamento da obesidade na saúde suplementar brasileira, 2017.</p>
+										{% include doenca-obesidade.html %}
 									</div>
 									<div class="modal-footer">
 										<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
