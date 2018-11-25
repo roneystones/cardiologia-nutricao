@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/roneystones/cardiologia-nutricao#readme",
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-shell": "^0.6.5",
     "lodash": "^4.17.5"
