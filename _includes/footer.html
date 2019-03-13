@@ -39,15 +39,15 @@
                 <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/obrigado/">
                     <div class="form-item">
                         <label for="name">Qual o seu nome?</span></label>
-                        <input type="text" name="name">
-                    </div>
+                        <input type="text" name="name" required>
+                    </div> 
                     <div class="form-item">
                         <label for="email">Qual o seu e-mail?</label>
-                        <input type="text" name="email" placeholder="" />
+                        <input type="text" name="email" placeholder="@" required/>
                     </div>
                     <div class="form-item">
                         <label for="telefone">Gostaria de deixar um telefone?</span></label>
-                        <input type="text" name="telefone" placeholder="(xx) xxxxx-xxxx">
+                        <input type="text" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
                     </div>
                     <div class="form-item">
                         <label for="message">Deixe sua mensagem</label>
